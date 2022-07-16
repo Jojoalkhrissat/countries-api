@@ -33,7 +33,6 @@ router.get('/byLanguage', async function (req, res, next) {
 });
 router.get('/json', validateAdmin, async function (req, res, next) {
   try {
-    
     const fileName = await countryService.createFile();
     res.download(fileName, 'countries.json');
   } catch (error) {

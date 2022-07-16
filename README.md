@@ -1,13 +1,13 @@
 # countries-api
 How to set up:
     1- clone the project anywhere.
-    2- create a database called countries-api in a mysql server.
-    3- create a .env file in the project directory.
+    2- create a .env file in the project directory.
+    3- make sure you have a live mysql database
     4- define these 4:
         DATABASE_USERNAME="your db username"
         DATABASE_PASSWORD="your db password"
         DATABASE_PORT="your db port"
-        DATABASE_NAME="country-api"
+        DATABASE_NAME="A database name, doesn't have to be created"
         DATABASE_HOST="your db host"
     5- run the command npm i in the project directory
     6- run the command node .\app.js
